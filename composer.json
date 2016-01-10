@@ -1,0 +1,23 @@
+{
+    "name": "nnssn/ladio",
+    "description": "Ladio Table",
+    "keywords": ["ladio"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/nnssn/Ladio",
+    "authors": [{
+        "name": "nnssn",
+        "email": "bool1or0@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nnssn\\Ladio\\": "src/"
+        }
+    }
+}
